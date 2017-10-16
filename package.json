@@ -1,0 +1,21 @@
+{
+  "name": "queue_frontend",
+  "version": "0.0.1",
+  "description": "Queue frontend for Balhim",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "CeleRn",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-assetpaths": "^0.3.0",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-replace": "^0.6.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-util": "^3.0.8",
+    "gulp-watch": "^4.3.11"
+  }
+}

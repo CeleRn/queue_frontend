@@ -1,0 +1,125 @@
+html, body {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header, main, div {
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    // flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #ededed;
+
+}
+.header {
+    flex: 0 0 15%;
+    opacity: 0.95;
+    &__title {
+        
+        font-weight: 600;
+        font-size: 70px;
+        text-transform: uppercase;
+        color: #efefef;
+        background-color: #C62828;
+        padding: 15px;
+        text-align: center;
+    }
+    &__site {
+        color: #fff;
+        background-color: #3F51B5;
+        font-size: 45px;
+        padding: 10px;
+        text-align: center;
+    }
+}
+
+.main {
+    flex: 0 0 75%;
+    display: flex;
+
+    &__left {
+        flex: 0 0 50%;
+        // background-color: #323232;
+        min-height: 100px;
+    }
+    &__right {
+        flex: 0 0 50%;
+        // background-color: #626262;
+        min-height: 100px;
+    }
+}
+
+.alarm {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    &__number-talon {
+        // flex: 0 0 100%;
+        text-align: center;
+        font-size: 150px;
+        font-weight: 700;
+        color: #333333;
+
+    }
+    &__window {
+        // flex: 0 0 100%;
+        
+        // text-transform: uppercase;
+    }
+}
+
+.window {
+    border-top: 3px solid #999;
+    font-weight: 700;
+    text-align: center;
+    font-size: 140px;
+    &__name {
+        color: #666;
+        font-weight: 400;
+    }
+    &__number {
+        color: #666;
+    }
+}
+
+.queue {
+    padding: 25px;
+    display: flex;
+
+    &__table {
+        flex: 0 0 100%;
+        width: 100%;
+    }
+}
+.queue-table {
+    thead {
+        border-bottom: 2px solid #999;
+        tr {
+            
+        }
+        th {
+            color: #333333;
+            font-size: 50px;
+            padding: .3em;
+        }
+        
+    }
+    tbody {
+        tr {
+
+        }
+        td {
+            text-align: center;
+            color: #333333;
+            font-size: 70px;
+            padding: .5em;
+            border-bottom: 2px dashed #999;
+        }
+    }
+}
